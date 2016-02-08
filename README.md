@@ -2,7 +2,7 @@
 
 [![](screenshot.png)](http://javierbyte.github.io/dancing-dots/)
 
-A library to get nice dot coordinates and movement.
+A library to get nice step by step dot coordinates with nice movement.
 
 Have you ever wanted to get a set of points, and then move them like if they have a nice trayectory? No? Maybe you will want now.
 
