@@ -1,8 +1,8 @@
 {
   "name": "dancing-dots",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JS library to get nice step by step dot coordinates with nice movement.",
-  "main": "index.js",
+  "main": "./dist/dancing-dots.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "rm -rf dist && mkdir -p dist && ./node_modules/.bin/babel ./src/dancing-dots.js --out-file ./dist/dancing-dots.js"
