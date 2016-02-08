@@ -6,9 +6,15 @@ Have you ever wanted to get a set of points, and then move them like if they hav
 
 ## Usage
 
-First, instanciate dancing dots.
+Get from npm
+```
+  npm install dancing-dots --save
+```
+
+Instanciate dancing dots.
 
 ```js
+  const DancingDots = require('dancing-dots')
   const dots = new DancingDots(configurationObject)
 ```
 
