@@ -1,0 +1,31 @@
+{
+  "name": "dancing-dots",
+  "version": "0.0.1",
+  "description": "A JS library to get nice moving dots coordinates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "rm -rf dist && mkdir -p dist && ./node_modules/.bin/babel ./src/dancing-dots.js --out-file ./dist/dancing-dots.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierbyte/dancing-dots.git"
+  },
+  "keywords": [
+    "dot",
+    "dancing",
+    "move",
+    "js",
+    "lib"
+  ],
+  "author": "Javier Borquez <hi@javier.xyz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javierbyte/dancing-dots/issues"
+  },
+  "homepage": "https://github.com/javierbyte/dancing-dots#readme",
+  "devDependencies": {
+    "babel-cli": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0"
+  }
+}
