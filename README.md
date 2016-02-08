@@ -1,6 +1,6 @@
 # [DancingDots](http://javierbyte.github.io/dancing-dots/)
 
-[![](screenshot.jpg)](http://javierbyte.github.io/dancing-dots/)
+[![](screenshot.png)](http://javierbyte.github.io/dancing-dots/)
 
 A library to get nice dot coordinates and movement.
 
