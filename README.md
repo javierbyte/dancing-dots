@@ -2,7 +2,7 @@
 
 A library to get nice dot coordinates and movement.
 
-Have you ever wanted to get a set of points, and then move them like if they have a trayectory? No? Maybe you will want now.
+Have you ever wanted to get a set of points, and then move them like if they have a nice trayectory? No? Maybe you will want now.
 
 ## Usage
 
@@ -20,13 +20,14 @@ The configuration object can have the following properties:
   * `height`. Integer. The height of the grid. Defaults to `100`.
   * `getOnlyInts`. Boolean. Do you want only integers in your results?. Defaults to `true`.
 
-And then you can do:
+
+## Get the dots.
 
 ```js
   dots.getCoords()
 ```
 
-That returns an array with the positino of the dots.
+You get:
 
 ```js
   [{
@@ -42,8 +43,10 @@ That returns an array with the positino of the dots.
   ...
 ```
 
+## Update and get the dots.
+
 ```js
   dots.getCoordsAndUpdate()
 ```
 
-That updates the position of the dots, and returns the new positions.
+That updates the position of the dots, and returns the new positions, just like `getDots()`.
